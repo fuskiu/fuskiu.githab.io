@@ -1,0 +1,54 @@
+.header{
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+.conteiner
+{
+width: 100%;
+max-width: 1170 px;
+
+}
+.header__inner{
+align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  padding: 35px 0;
+}
+.nav{
+text-transform: uppercase;
+}
+.header__logo{
+  text-transform: uppercase;
+font-style: italic;
+margin-left: 50px;
+}
+
+.nav__link{
+opacity: .75;
+  text-decoration: none;
+color: #000;
+font-style: italic;
+transition: opacity .1s linear;
+margin-right: 50px;
+}
+.nav__link:hover{
+opacity: 1;
+}
+
+.main{
+ align-items: center;
+margin-top: 100px;
+}
+.h1{
+ text-align: left;
+ font-size: 7;
+font-family: cursive;
+}
+.text{
+font-family: cursive;
+
+}
